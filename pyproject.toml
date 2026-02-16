@@ -1,1 +1,15 @@
+[project]
+name = "oman_vat"
+version = "0.0.1"
+description = "Oman VAT management and reporting"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["flit_core>=3.4"]
+build-backend = "flit_core.buildapi"
+
+[tool.frappe]
+app_name = "oman_vat"
 
