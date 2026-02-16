@@ -13,3 +13,7 @@ build-backend = "flit_core.buildapi"
 [tool.frappe]
 app_name = "oman_vat"
 
+[tool.bench.frappe-dependencies]
+frappe = ">=16,<17"
+erpnext = ">=16,<17"
+
